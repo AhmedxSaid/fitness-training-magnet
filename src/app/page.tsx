@@ -92,8 +92,8 @@ function HeroSection() {
       >
         {/* Before */}
         <div className="relative">
-          <div className="w-32 h-44 sm:w-40 sm:h-56 lg:w-48 lg:h-64 rounded-2xl bg-gray-100 border-2 border-dashed border-gray-300 flex flex-col items-center justify-center overflow-hidden">
-            {/* Replace with: <img src="/before.jpg" className="w-full h-full object-cover" /> */}
+          <div className="w-32 h-44 sm:w-40 sm:h-56 lg:w-48 lg:h-64 rounded-2xl overflow-hidden">
+            <img src="/before.jpg" className="w-full h-full object-cover object-top" alt="قبل" />
           </div>
           <div className="absolute bottom-2 left-2 bg-gray-800/80 backdrop-blur px-2 py-0.5 rounded text-xs font-bold text-white">
             قبل
@@ -102,8 +102,8 @@ function HeroSection() {
 
         {/* After */}
         <div className="relative">
-          <div className="w-32 h-44 sm:w-40 sm:h-56 lg:w-48 lg:h-64 rounded-2xl bg-gray-100 border-2 border-dashed border-[#ff6b2c] flex flex-col items-center justify-center overflow-hidden">
-            {/* Replace with: <img src="/after.jpg" className="w-full h-full object-cover" /> */}
+          <div className="w-32 h-44 sm:w-40 sm:h-56 lg:w-48 lg:h-64 rounded-2xl overflow-hidden ring-2 ring-[#ff6b2c]">
+            <img src="/after.jpg" className="w-full h-full object-cover object-top" alt="بعد" />
           </div>
           <div className="absolute bottom-2 right-2 bg-[#ff6b2c] px-2 py-0.5 rounded text-xs font-bold text-white">
             بعد
