@@ -88,12 +88,12 @@ function HeroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
-        className="flex justify-center gap-4 sm:gap-8 mb-6"
+        className="flex justify-center gap-4 sm:gap-8 mb-6 w-full"
       >
         {/* Before */}
         <div className="relative">
-          <div className="w-32 h-44 sm:w-40 sm:h-56 lg:w-48 lg:h-64 rounded-2xl overflow-hidden">
-            <img src="/before.jpg" className="w-full h-full object-cover object-top" alt="قبل" />
+          <div className="w-[155px] h-[294px] sm:w-[183px] sm:h-[331px] lg:w-[212px] lg:h-[368px] rounded-2xl overflow-hidden">
+            <img src="/before.jpg" className="w-full h-full object-cover" alt="قبل" />
           </div>
           <div className="absolute bottom-2 left-2 bg-gray-800/80 backdrop-blur px-2 py-0.5 rounded text-xs font-bold text-white">
             قبل
@@ -102,8 +102,8 @@ function HeroSection() {
 
         {/* After */}
         <div className="relative">
-          <div className="w-32 h-44 sm:w-40 sm:h-56 lg:w-48 lg:h-64 rounded-2xl overflow-hidden ring-2 ring-[#ff6b2c]">
-            <img src="/after.jpg" className="w-full h-full object-cover object-top" alt="بعد" />
+          <div className="w-[155px] h-[294px] sm:w-[183px] sm:h-[331px] lg:w-[212px] lg:h-[368px] rounded-2xl overflow-hidden ring-2 ring-[#ff6b2c] bg-black">
+            <img src="/after.jpg" className="w-full h-full object-cover object-left" alt="بعد" />
           </div>
           <div className="absolute bottom-2 right-2 bg-[#ff6b2c] px-2 py-0.5 rounded text-xs font-bold text-white">
             بعد
